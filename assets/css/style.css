@@ -1,0 +1,137 @@
+html, body {
+    overflow-x: hidden;
+}
+div,
+section,
+script,
+main,
+nav,
+textarea,
+span,
+h1, h2, h3, h4
+footer,
+article,
+aside,
+address {
+    overflow: hidden;
+}
+* {
+    font-family: Roboto, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 20px;
+}
+.logo {
+    cursor: pointer;
+}
+.search {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0px 2px 8px rgba(60, 64, 67, 0.25);
+    border-radius: 30px;
+    margin: 10px 10px;
+    
+    cursor: pointer;
+    flex: 5;
+}
+.box-text {
+    display: flex;
+    padding-left: 10px;
+    height: 45px;
+    align-items: center;
+    flex: 4;
+}
+.search:hover {
+    box-shadow: 0px 1px 10px rgba(60, 64, 67, 0.25);
+}
+.box-text textarea {
+    resize: none;
+    width: 100%;
+    height: 45px;
+    padding: 14px 0;
+}
+.box-text i {
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.border-div {
+    height: 30px;
+    width: 1px;
+    background-color: #dfe1e5;
+    margin: 0 10px;
+}
+.keyboard, .voz, .camera, .search-icon {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    padding: 0 8px;
+}
+.voz img {
+    height: 20.19px;
+    width: auto;
+}
+.camera img {
+    height: 18px;
+    width: 18px;
+}
+.div-flex {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+.comp-search {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+}
+.apps, .config {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    transition: 0.5s all linear;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.apps:hover {
+    background-color: #dfe1e5;
+}
+.config:hover {
+    background-color: #dfe1e5;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: rgb(43, 43, 209);
+    padding: 10px;
+    border-radius: 27px;
+    margin: 5px 5px;
+    transition: 1 all linear;
+    cursor: pointer;
+}
+.login span {
+    color: #f5f5f5;
+    font-size: 14px;
+}
+.login:hover {
+    box-shadow: 1px 1px 4px #252525;;
+}
