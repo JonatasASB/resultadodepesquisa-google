@@ -208,7 +208,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 .photo-main  {
     display: flex;
@@ -258,4 +258,27 @@ header {
 }
 .translate:hover {
     text-decoration: underline;
+}
+.box-title {
+    margin: 15px 0 8px 0;
+}
+div .title-main {
+    font-size: 24px;
+    font-weight: 400;
+    color: #1a0dab;
+    line-height: 28px;
+    cursor: pointer;
+}
+.title-main:hover {
+    text-decoration: underline;
+}
+div .sub-title-main {
+    font-size: 16px;
+    color: #474747;
+    line-height: 22px;
+    font-weight: 400;
+}
+strong:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
