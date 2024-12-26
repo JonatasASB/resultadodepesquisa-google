@@ -282,3 +282,72 @@ strong:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+@media (max-width:920px) {
+    header {
+        padding: 20px 0;
+    }
+    .search {
+        width: 40%;
+    }
+    .box-text {
+        width: 50%;
+    }
+    .main {
+        padding: 40px 50px 20px 10px;
+    }
+    .login span {
+        text-align: center;
+    }
+}
+@media (max-width:700px) {
+    header {
+        justify-content: center;
+    }
+    .search {
+        margin: 10px 0;
+    }
+    .keyboard, .voz, .camera, .search-icon {
+        padding: 0 5px;
+    }
+   .div-flex {
+    flex: none;
+   } 
+   .border-div {
+    margin: 7.5px 5px;
+   }
+}
+@media (max-width:600px) {
+    header {
+        flex-wrap: wrap-reverse;
+    }
+    .search {
+        width: 70%;
+    }
+    .container {
+        width: 95vw;
+    }
+    .box-text {
+        width: 70%;
+    }
+    .main {
+        padding: 0 0 10px 10px;
+    }
+    .logo img {
+        width: 80px;
+    }
+    .logo {
+        margin-right: 15px;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row .icon {
+        display: none;
+    }
+    .title-content {
+        margin: 0;
+    }
+}
